@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/main.css">
+</head>
+<body>
+    <div class="main">
+        <div class="title">
+            <img src="assets/appie.png" alt="appie logo" class="appie-logo">
+            <h1>Scan Menu</h1>
+        </div>
+        <div class="content">
+            <div class="left-content">
+                <div class="knoppen">
+                    <a href="#" class="groente" id="open-groente-popup">
+                        <img src="assets/fruit.png" alt="groente en fruit" height="100vh">
+                        <span>Groente</span>
+                    </a>
+                    
+                    <a href="#" class="broodjes"  id="open-broodjes-popup">
+                        <img src="assets/broodjes.png" alt="broodjes" height="100vh">
+                        <span>Brood</span>
+                    </a>
+                </div>
+                <a href="#" class="betaal-knop" id="open-betaal-Popup">Betalen</a>
+            </div>
+            <div class="producten">
+                <div class="producten-top">
+                    <h2>Producten</h2>
+                    <hr width="80%">
+                </div>
+                <div class="producten-lijst" id="winkelmand">
+
+                </div>
+                <div class="producten-bottom">
+                    <hr width="80%">
+                    <div class="totaal">
+                        <p>Totaal:</p>
+                        <p class="prijs" id="totaalPrijs">0,-</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="betaal-popup" id="betaal-popup">
+            <div class="popup">
+                <img src="assets/appie.png" alt="appie logo" class="appie-logo">
+                <h2>Betaalwijzen kiezen</h2>
+                <p>Kies hoe u wilt betalen</p>
+                <div class="betaalwijzen">
+                    <a href="#" class="betaalwijs">
+                        <span>PIN</span>
+                        <img src="assets/pin.png" alt="pin" height="75px">
+                    </a>
+                    <a href="#" class="betaalwijs">
+                        <span>Contant</span>
+                        <img src="assets/cash.png" alt="contant" height="75px">
+                    </a>
+
+                </div>
+                <button id="closePopup">Sluiten</button>
+            </div>
+        </div>
+        <a href="index.html" class="backButton">⇽ Ga terug</a>
+
+        <div class="groente-lijst" id="groente-popup">
+            <div class="groente-popup">
+                <h2>GROENTE</h2>
+                <div class="groente-opties">
+                    <p>Groentes</p>
+                    <p>Fruit</p>
+                </div>
+                <div class="groentes-knoppen">
+
+                </div>
+                <button id="close-groente-popup">Sluiten</button>
+            </div>
+        </div>
+        <div class="broodjes-lijst" id="broodjes-popup">
+            <div class="broodjes-popup">
+                <h2>BROODJES</h2>
+                <div class="broodjes-opties">
+                    <p>Hartig</p>
+                    <p>Zoet</p>
+                    <p>Harde broodjes</p>
+                    <p>Zachte broodjes</p>
+                    <p>Croissants</p>
+                </div>
+                <div class="broodjes-knoppen">
+
+                </div>
+                <button id="close-broodjes-popup">Sluiten</button>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/Popup.js"></script>
+    <script src="scripts/producten.js"></script>
+
+</body>
+</html>

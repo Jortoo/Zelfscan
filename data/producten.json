@@ -1,0 +1,41 @@
+{
+  "broodjes": [
+    {"naam": "Croissant", "prijs": 1.5, "foto": "croissant.png", "type": "zoet"},
+    {"naam": "Boterham Ham", "prijs": 2, "foto": "boterham_ham.png", "type": "hartig"},
+    {"naam": "Boterham Kaas", "prijs": 1.8, "foto": "boterham_kaas.png", "type": "hartig"},
+    {"naam": "Hartige Wrap", "prijs": 3, "foto": "wrap.png", "type": "hartig"},
+    {"naam": "Zoete Bol", "prijs": 1.2, "foto": "zoete_bol.png", "type": "zoet"},
+    {"naam": "Harde Broodjes", "prijs": 2.5, "foto": "harde_broodjes.png", "type": "hartig"},
+    {"naam": "Zachte Broodjes", "prijs": 2.2, "foto": "zachte_broodjes.png", "type": "hartig"},
+    {"naam": "Bagel", "prijs": 2.8, "foto": "bagel.png", "type": "hartig"},
+    {"naam": "Ciabatta", "prijs": 3.2, "foto": "ciabatta.png", "type": "hartig"},
+    {"naam": "Panini", "prijs": 3.5, "foto": "panini.png", "type": "hartig"},
+    {"naam": "Brioche", "prijs": 2, "foto": "brioche.png", "type": "zoet"},
+    {"naam": "Kaiserbroodje", "prijs": 2.1, "foto": "kaiser.png", "type": "hartig"},
+    {"naam": "Tosti Ham-Kaas", "prijs": 2.5, "foto": "tosti_hamkaas.png", "type": "hartig"},
+    {"naam": "Tosti Mozzarella", "prijs": 2.7, "foto": "tosti_mozzarella.png", "type": "hartig"},
+    {"naam": "Croissant Ham-Kaas", "prijs": 2.8, "foto": "croissant_hamkaas.png", "type": "hartig"}
+  ],
+  "groente": [
+    {"naam": "Tomaat", "prijs": 0.5, "foto": "tomaat.png", "type": "groente"},
+    {"naam": "Komkommer", "prijs": 0.8, "foto": "komkommer.png", "type": "groente"},
+    {"naam": "Paprika Rood", "prijs": 1, "foto": "paprika_rood.png", "type": "groente"},
+    {"naam": "Paprika Geel", "prijs": 1, "foto": "paprika_geel.png", "type": "groente"},
+    {"naam": "Paprika Groen", "prijs": 1, "foto": "paprika_groen.png", "type": "groente"},
+    {"naam": "Sla", "prijs": 1.5, "foto": "sla.png", "type": "groente"},
+    {"naam": "Spinazie", "prijs": 1.2, "foto": "spinazie.png", "type": "groente"},
+    {"naam": "Avocado", "prijs": 1.8, "foto": "avocado.png", "type": "groente"},
+    {"naam": "Courgette", "prijs": 1, "foto": "courgette.png", "type": "groente"},
+    {"naam": "Wortel", "prijs": 0.7, "foto": "wortel.png", "type": "groente"},
+    {"naam": "Aardbei", "prijs": 2.5, "foto": "aardbei.png", "type": "fruit"},
+    {"naam": "Banaan", "prijs": 1.2, "foto": "banaan.png", "type": "fruit"},
+    {"naam": "Appel", "prijs": 1, "foto": "appel.png", "type": "fruit"},
+    {"naam": "Peer", "prijs": 1, "foto": "peer.png", "type": "fruit"},
+    {"naam": "Mandarijn", "prijs": 1.5, "foto": "mandarijn.png", "type": "fruit"},
+    {"naam": "Druiven", "prijs": 2, "foto": "druiven.png", "type": "fruit"},
+    {"naam": "Frambozen", "prijs": 2.8, "foto": "frambozen.png", "type": "fruit"},
+    {"naam": "Bosbessen", "prijs": 2.8, "foto": "bosbessen.png", "type": "fruit"},
+    {"naam": "Kiwi", "prijs": 1.5, "foto": "kiwi.png", "type": "fruit"},
+    {"naam": "Mango", "prijs": 2.5, "foto": "mango.png", "type": "fruit"}
+  ]
+}
