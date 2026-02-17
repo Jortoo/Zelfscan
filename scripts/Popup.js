@@ -11,6 +11,7 @@ const broodjesPopup = document.getElementById("broodjes-popup");
 const closeBroodjesBtn = document.getElementById("close-broodjes-popup");
 const openBroodjesBtn = document.getElementById("open-broodjes-popup");
 
+
 openBtn.addEventListener("click", () => {
     popup.classList.add("active");
 });
@@ -36,3 +37,4 @@ closeGroenteBtn.addEventListener("click", () => {
 closeBroodjesBtn.addEventListener("click", () => {
     broodjesPopup.classList.remove("active");
 });
+
